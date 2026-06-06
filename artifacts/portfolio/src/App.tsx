@@ -6,6 +6,7 @@ import NotFound from "@/pages/not-found";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ChevronDown, Mail, Code2, Database, BrainCircuit, GraduationCap, MapPin, Sparkles, Linkedin, Award, BookOpen, Phone } from "lucide-react";
 import { SiGithub, SiPython, SiNumpy, SiPandas, SiScikitlearn, SiJupyter, SiCplusplus } from "react-icons/si";
+import profilePic from "@assets/WhatsApp_Image_2026-06-06_at_3.43.01_PM_1780741212240.jpeg";
 
 const queryClient = new QueryClient();
 
@@ -83,6 +84,14 @@ function Home() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
+            <div className="flex justify-center mb-8">
+              <img
+                src={profilePic}
+                alt="Zainab Abbas Husaini"
+                data-testid="img-profile"
+                className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover object-top border-4 border-primary/20 shadow-lg"
+              />
+            </div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-8">
               <Sparkles className="w-4 h-4" />
               <span>B.Tech AI/ML Student</span>

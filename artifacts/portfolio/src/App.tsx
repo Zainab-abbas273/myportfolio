@@ -296,7 +296,7 @@ function Home() {
 
             <div className="flex items-center justify-center gap-4">
               <a
-                href="https://github.com"
+                href="https://github.com/Zainab-abbas273"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-4 rounded-full border border-border hover:bg-secondary hover:border-primary transition-colors"

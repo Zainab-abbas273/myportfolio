@@ -118,7 +118,7 @@ function Home() {
                 About Me
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-5">
-                I am an aspiring Artificial Intelligence and Machine Learning engineer with a strong foundation in Python and C++ programming. Passionate about building intelligent systems and solving real-world problems using data-driven approaches.
+                I am an aspiring Artificial Intelligence and Machine Learning engineer with a strong foundation in Python programming. Passionate about building intelligent systems and solving real-world problems using data-driven approaches.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 I am actively seeking opportunities to apply my technical skills and grow in the AI/ML domain — driven by curiosity about how systems like ChatGPT work and a desire to build the next generation of intelligent tech solutions.
@@ -243,7 +243,7 @@ function Home() {
                     Gained a strong understanding of C++ programming and OOP concepts. Covered inheritance, polymorphism, encapsulation, and abstraction. Applied concepts through practical coding exercises.
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    {["C++", "OOP", "Polymorphism", "Encapsulation", "Inheritance"].map(tag => (
+                    {["OOP", "Polymorphism", "Encapsulation", "Inheritance"].map(tag => (
                       <span key={tag} className="px-3 py-1 rounded-full bg-secondary text-secondary-foreground text-sm font-medium">
                         {tag}
                       </span>

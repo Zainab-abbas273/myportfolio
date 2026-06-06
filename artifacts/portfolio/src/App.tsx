@@ -5,7 +5,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ChevronDown, Mail, Code2, Database, BrainCircuit, GraduationCap, MapPin, Sparkles, Linkedin, Award, BookOpen, Phone } from "lucide-react";
-import { SiGithub, SiPython, SiNumpy, SiPandas, SiScikitlearn, SiJupyter } from "react-icons/si";
+import { SiGithub, SiPython, SiNumpy, SiPandas, SiScikitlearn, SiJupyter, SiCplusplus } from "react-icons/si";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +22,7 @@ const FadeIn = ({ children, delay = 0 }: { children: React.ReactNode; delay?: nu
 
 const skills = [
   { name: "Python", icon: <SiPython /> },
+  { name: "C++ Basics", icon: <SiCplusplus /> },
   { name: "NumPy", icon: <SiNumpy /> },
   { name: "Pandas", icon: <SiPandas /> },
   { name: "Scikit-learn", icon: <SiScikitlearn /> },
